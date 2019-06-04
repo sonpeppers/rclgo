@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <author email="pepperson00@gmail.com">Paul Epperson</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <!-- python_cmake_module ? -->
+
+  <build_depend>rcutils</build_depend>
+  <!-- rmw_implementation_cmake ? -->
+
+  <depend>rmw_implementation</depend>
+  <depend>rcl</depend>
+  <depend>rcl_action</depend>
+  <depend>rcl_yaml_param_parser</depend>
+  <depend>unique_identifier_msgs</depend>
+
+  <!-- ament_index_python ? -->
+  <exec_depend>builtin_interfaces</exec_depend>
+  <exec_depend>rosgraph_msgs</exec_depend>
+
+  <!-- ament_cmake_pytest ? -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <!-- python3-pytest -->
+  <test_depend>rcl_interfaces</test_depend>
+  <!-- rosidl_generator_py ? -->
+  <test_depend>test_msgs</test_depend>
+
+  <doc_depend>python3-sphinx</doc_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
